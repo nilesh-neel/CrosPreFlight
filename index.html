@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <button class="btn btn-primary">Hello</button>
+    <div id="dvPowerBiEmbed" class="row" style="display: block">
+        <div class="row" id="divExitFullScreen">
+            <div class="row defaultIcons  minimize pull-right"></div>
+            <div class="defaultIcons print pull-right"></div>
+            <div class="defaultIcons filter pull-right"></div>
+            <div class="defaultIcons favorite pull-right"></div>
+        </div>
+        <div id="embedContainer" class="embed-responsive embed-responsive-16by9 PBIContainer" style="display:block;"></div>
+        <input type="hidden" value="" id="hdntoken" />
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="es-shim.min.js"></script>
+    <script src="lodash.min.js"></script>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="dataService.js"></script>
+    <!-- <script src="powerbi/powerbi.min.js"></script>
+    <script src="powerbi/powerBIApp.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
